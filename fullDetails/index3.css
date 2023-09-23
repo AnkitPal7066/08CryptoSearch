@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    background-color: rgb(14, 130, 231);
+    color: whitesmoke;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.logoimg{
+    width: 5rem;
+    padding: .5rem;
+}
+#logo{
+    width: 3rem;
+    border-radius: 50%;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.rightNav{
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+.detailsS{
+    background-color: rgb(73, 146, 219);
+    color: rgb(231, 223, 223);
+    padding: 3rem 5rem 0rem 10rem;
+    height: 38.53rem;
+}
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: rgb(42, 42, 42);
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.detail{
+    width: 55rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    background-color: rgb(65, 144, 222);
+    box-shadow: 2px 2px 2px 2px rgb(40, 40, 40);
+    border-radius: 1.5rem;
+}
+p{
+    line-height: 22px;
+}
+p a{
+    color: black;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 0 4rem;
+    height: 3.84rem;
+    font-size: .75rem;
+    font-weight: 550;
+}
+.links{
+    font-size: 1.7rem;
+    display: flex;
+    gap: .8rem;
+    /* color: slategray; */
+}
+.face{
+    /* color: rgb(41, 41, 243); */
+    color: rgb(22, 22, 22);
+    transition: tranform 0.4s ease;
+    border-radius: 15%;
+}
+.face:hover{
+    transform: scale(1.1);
+}
+#name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.image{
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgb(40, 40, 40);
+    transition: tranform 2s ease;
+    width: 15rem;
+
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.imgDiv{
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
+    width: fit-content;
+    height: fit-content;
+
+}
